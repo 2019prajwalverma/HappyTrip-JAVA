@@ -11,7 +11,7 @@ pipeline{
     
     stage('Compile and Create war file'){
          tools { 
-                           jdk 'JDK4' 
+                           jdk 'JDK11' 
                            maven 'maven 3.6.3' 
                     } 
         steps{
